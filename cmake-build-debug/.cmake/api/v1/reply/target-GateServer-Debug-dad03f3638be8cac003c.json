@@ -1,0 +1,1269 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "GateServer.exe"
+		},
+		{
+			"path" : "GateServer.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"target_compile_definitions",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"D:/MSYS2/mingw64/lib/cmake/absl/abslTargets.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/absl/abslConfig.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/protobuf/protobuf-config.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/protobuf/protobuf-targets.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/grpc/gRPCTargets.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/grpc/gRPCConfig.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/c-ares/c-ares-targets.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/c-ares/c-ares-config.cmake",
+			"D:/MSYS2/mingw64/lib/cmake/grpc/modules/Findc-ares.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 32,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 16,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 71,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 13
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 25,
+				"parent" : 14
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 151,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 79,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 106,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 124,
+				"parent" : 16
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 14,
+				"parent" : 14
+			},
+			{
+				"file" : 9,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 18,
+				"parent" : 22
+			},
+			{
+				"file" : 8,
+				"parent" : 23
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 23,
+				"parent" : 24
+			},
+			{
+				"file" : 7,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 61,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 680,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 338,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 455,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 617,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 662,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 644,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1175,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1265,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1355,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1373,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1319,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1563,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1509,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1536,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 491,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 671,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 779,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1409,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 788,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 860,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1473,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1688,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 752,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 968,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1661,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1049,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 464,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 536,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1590,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 977,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1599,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 1437,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 168,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 275,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 111,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 62,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "BOOST_ALL_STATIC_LINK"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "GRPC_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "JSONCPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "JSON_API="
+				},
+				{
+					"backtrace" : 63,
+					"define" : "JSON_DLL=0"
+				},
+				{
+					"backtrace" : 63,
+					"define" : "JSON_STATIC=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "PROTOBUF_USE_DLLS"
+				},
+				{
+					"backtrace" : 62,
+					"define" : "PROTOBUF_USE_STATIC_LIBS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/include"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/Sources/protos"
+				},
+				{
+					"backtrace" : 64,
+					"path" : "D:/MSYS2/mingw64/include/mariadb"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				9,
+				11,
+				13,
+				16
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "proto_lib::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "GateServer::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libmariadb.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcurl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lzstd",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libproto_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libgrpc++_reflection.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libjsoncpp.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\w2552\\CLionProjects\\GateServer\\lib\\libboost_filesystem-mgw13-mt-x64-1_86.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\w2552\\CLionProjects\\GateServer\\lib\\libboost_system-mgw13-mt-x64-1_86.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\w2552\\CLionProjects\\GateServer\\lib\\libboost_thread-mgw13-mt-x64-1_86.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\w2552\\CLionProjects\\GateServer\\lib\\libboost_chrono-mgw13-mt-x64-1_86.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\w2552\\CLionProjects\\GateServer\\lib\\libboost_atomic-mgw13-mt-x64-1_86.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static-libgcc",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-static-libstdc++",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lmswsock",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lsecur32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcrypt32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lbcrypt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lshlwapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-liphlpapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libredis++_static.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libhiredis.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libgrpc++.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libprotobuf.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_leak_check.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_die_if_null.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_initialize.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libgrpc.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_statusor.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libupb_json_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libupb_textformat_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libutf8_range_lib.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libupb_message_lib.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libupb_base_lib.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libupb_mem_lib.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libre2.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libz.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libcares.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "-ladvapi32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-liphlpapi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libgpr.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_reflection.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_raw_hash_set.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_hashtablez_sampler.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_config.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_program_name.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_private_handle_accessor.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_commandlineflag.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_commandlineflag_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_distributions.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_seed_sequences.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_pool_urbg.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_randen.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_randen_hwaes.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_randen_hwaes_impl.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_randen_slow.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_platform.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 38,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_internal_seed_material.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_random_seed_gen_exception.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_status.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_cord.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_cordz_info.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_cord_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_cordz_functions.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_exponential_biased.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_cordz_handle.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_crc_cord_state.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_crc32c.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 42,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_crc_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 42,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_crc_cpu_detect.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_flags_marshalling.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_check_op.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_conditions.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_message.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_strerror.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 46,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_nullguard.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_examine_stack.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_format.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 48,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_str_format_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_proto.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_log_sink_set.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_globals.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_hash.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_bad_variant_access.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_city.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_low_level_hash.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 51,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_vlog_config_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 52,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_bad_optional_access.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_fnmatch.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_synchronization.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_stacktrace.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_symbolize.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_debugging_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 55,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_demangle_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_graphcycles_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_kernel_timeout_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 56,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_malloc_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_internal_globals.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_sink.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_entry.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_time.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_civil_time.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 58,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_time_zone.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_strings.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 50,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_int128.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_strings_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 59,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_string_view.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_base.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_spinlock_wait.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 61,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_throw_delegate.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_raw_logging_internal.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libabsl_log_severity.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libssl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libcrypto.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\MSYS2\\mingw64\\lib\\libaddress_sorting.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lcrypt32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "GateServer",
+	"nameOnDisk" : "GateServer.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				9,
+				11,
+				13,
+				16
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				6,
+				8,
+				10,
+				12,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/CServer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/HttpConnection.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/LoginSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/VerifyGrpcClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/ConfigMgr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/ConfigMgr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/AsioIOServicePool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/AsioIOServicePool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/RedisMgr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/RedisMgr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/RedisConPool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/RedisConPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/MariaPool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/MariaPool.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Sources/headers/MariaDao.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/MariaDao.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

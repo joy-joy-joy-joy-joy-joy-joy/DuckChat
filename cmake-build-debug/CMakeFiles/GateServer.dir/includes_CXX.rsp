@@ -1,0 +1,1 @@
+-IC:/Users/w2552/CLionProjects/GateServer/include -IC:/Users/w2552/CLionProjects/GateServer/Sources/Headers -I"C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86" -IC:/Users/w2552/CLionProjects/GateServer/Sources/protos -ID:/MSYS2/mingw64/include/mariadb

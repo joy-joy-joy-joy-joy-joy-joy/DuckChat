@@ -1,0 +1,2 @@
+D:\MSYS2\mingw64\bin\ar.exe qc libproto_lib.a CMakeFiles/proto_lib.dir/Sources/protos/verify.pb.cc.obj CMakeFiles/proto_lib.dir/Sources/protos/verify.grpc.pb.cc.obj
+D:\MSYS2\mingw64\bin\ranlib.exe libproto_lib.a

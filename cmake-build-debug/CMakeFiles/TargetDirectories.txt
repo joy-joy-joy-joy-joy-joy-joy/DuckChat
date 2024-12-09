@@ -1,0 +1,4 @@
+C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/CMakeFiles/proto_lib.dir
+C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/CMakeFiles/GateServer.dir
+C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

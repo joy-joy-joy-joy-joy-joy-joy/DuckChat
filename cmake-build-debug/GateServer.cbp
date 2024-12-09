@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GateServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\MSYS2\;CMake Files\MSYS2\mingw64\;CMake Files\MSYS2\mingw64\lib\;CMake Files\MSYS2\mingw64\lib\cmake\;CMake Files\MSYS2\mingw64\lib\cmake\protobuf\;CMake Files\MSYS2\mingw64\lib\cmake\absl\;CMake Files\MSYS2\mingw64\lib\cmake\utf8_range\;CMake Files\MSYS2\mingw64\lib\cmake\grpc\;CMake Files\MSYS2\mingw64\lib\cmake\grpc\modules\;CMake Files\MSYS2\mingw64\lib\cmake\c-ares\;CMake Files\MSYS2\mingw64\lib\cmake\re2\;CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_lib">
+				<Option output="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/libproto_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL=0"/>
+					<Add option="-DJSON_STATIC=1"/>
+					<Add option="-DJSON_API="/>
+					<Add option="-DJSONCPP_STATIC_DEFINE"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/protos"/>
+					<Add directory="D:/MSYS2/mingw64/include/mariadb"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 proto_lib"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="proto_lib/fast">
+				<Option output="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/libproto_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DJSON_DLL=0"/>
+					<Add option="-DJSON_STATIC=1"/>
+					<Add option="-DJSON_API="/>
+					<Add option="-DJSONCPP_STATIC_DEFINE"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/protos"/>
+					<Add directory="D:/MSYS2/mingw64/include/mariadb"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 proto_lib/fast"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GateServer">
+				<Option output="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/GateServer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_ALL_STATIC_LINK"/>
+					<Add option="-DPROTOBUF_USE_STATIC_LIBS"/>
+					<Add option="-DGRPC_STATIC_DEFINE"/>
+					<Add option="-DJSON_DLL=0"/>
+					<Add option="-DJSON_STATIC=1"/>
+					<Add option="-DJSON_API="/>
+					<Add option="-DJSONCPP_STATIC_DEFINE"/>
+					<Add option="-DPROTOBUF_USE_DLLS"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/protos"/>
+					<Add directory="D:/MSYS2/mingw64/include/mariadb"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 GateServer"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GateServer/fast">
+				<Option output="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/GateServer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_ALL_STATIC_LINK"/>
+					<Add option="-DPROTOBUF_USE_STATIC_LIBS"/>
+					<Add option="-DGRPC_STATIC_DEFINE"/>
+					<Add option="-DJSON_DLL=0"/>
+					<Add option="-DJSON_STATIC=1"/>
+					<Add option="-DJSON_API="/>
+					<Add option="-DJSONCPP_STATIC_DEFINE"/>
+					<Add option="-DPROTOBUF_USE_DLLS"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"/>
+					<Add directory="C:/Users/w2552/CLionProjects/GateServer/Sources/protos"/>
+					<Add directory="D:/MSYS2/mingw64/include/mariadb"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include/c++/14.1.0/backward"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../include"/>
+					<Add directory="D:/MSYS2/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 GateServer/fast"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MSYS2/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/w2552/CLionProjects/GateServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/AsioIOServicePool.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/CServer.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/ConfigMgr.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/HttpConnection.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/LoginSystem.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/MariaDao.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/MariaPool.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/RedisConPool.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/RedisMgr.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/VerifyGrpcClient.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/AsioIOServicePool.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/ConfigMgr.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/MariaDao.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/MariaPool.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/RedisConPool.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/headers/RedisMgr.h">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/main.cpp">
+			<Option target="GateServer"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/protos/verify.grpc.pb.cc">
+			<Option target="proto_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/Sources/protos/verify.pb.cc">
+			<Option target="proto_lib"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-config-version.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-config.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-generate.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-options.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-targets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/protobuf/protobuf-targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\protobuf\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/absl/abslConfig.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\absl\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/absl/abslConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\absl\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/absl/abslTargets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\absl\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/absl/abslTargets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\absl\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/utf8_range/utf8_range-config.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\utf8_range\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/utf8_range/utf8_range-targets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\utf8_range\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/utf8_range/utf8_range-targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\utf8_range\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCConfig.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCPluginTargets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCPluginTargets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCTargets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/gRPCTargets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/modules/Findc-ares.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/grpc/modules/Findre2.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\grpc\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/c-ares/c-ares-config-version.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\c-ares\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/c-ares/c-ares-config.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\c-ares\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/c-ares/c-ares-targets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\c-ares\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/c-ares/c-ares-targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\c-ares\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/re2/re2Config.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\re2\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/re2/re2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\re2\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/re2/re2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\re2\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/re2/re2Targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\re2\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/jsoncpp/jsoncpp-namespaced-targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/jsoncpp/jsoncpp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/jsoncpp/jsoncpp-targets.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/jsoncpp/jsoncppConfig.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/w2552/CLionProjects/GateServer/MSYS2/mingw64/lib/cmake/jsoncpp/jsoncppConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\MSYS2\mingw64\lib\cmake\jsoncpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

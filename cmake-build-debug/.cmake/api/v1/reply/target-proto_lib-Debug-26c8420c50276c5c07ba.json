@@ -1,0 +1,149 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "libproto_lib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "JSONCPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "JSON_API="
+				},
+				{
+					"backtrace" : 2,
+					"define" : "JSON_DLL=0"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "JSON_STATIC=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/Sources/Headers"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/include/boost-1_86"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/Users/w2552/CLionProjects/GateServer/Sources/protos"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/MSYS2/mingw64/include/mariadb"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "proto_lib::@6890427a1f51a3e7e1df",
+	"name" : "proto_lib",
+	"nameOnDisk" : "libproto_lib.a",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/protos/verify.pb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Sources/protos/verify.grpc.pb.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

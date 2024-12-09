@@ -1,0 +1,21 @@
+# ninja log v5
+20	4873	7535380317003011	CMakeFiles/GateServer.dir/Sources/main.cpp.obj	6efb6bd3a47f3d01
+27	4935	7535380317618097	CMakeFiles/GateServer.dir/Sources/CServer.cpp.obj	d32aaba8f33f38a2
+23	6298	7535380331192281	CMakeFiles/GateServer.dir/Sources/HttpConnection.cpp.obj	73509680e233f513
+1	287	7535545895804045	build.ninja	9971990f27a5dbcc
+14	8181	7535383623395872	CMakeFiles/GateServer.dir/Sources/LoginSystem.cpp.obj	65919c847010e8b3
+14	6957	7535336448752444	GateServer.exe	cdab2f9067b733d3
+30	6291	7535380331212294	CMakeFiles/GateServer.dir/Sources/VerifyGrpcClient.cpp.obj	76ad00b08dd189b0
+18	2156	7535380289886188	CMakeFiles/proto_lib.dir/Sources/protos/verify.pb.cc.obj	f1d09eeb13198662
+13	4329	7535380311562198	CMakeFiles/proto_lib.dir/Sources/protos/verify.grpc.pb.cc.obj	ee350430cc1d21d3
+4329	4752	7535380315852775	libproto_lib.a	d479999db197f106
+12	6846	7534677508584954	bin/GateServer.exe	47059a2bb44e661e
+0	309	7535545895804045	build.ninja	9971990f27a5dbcc
+13	1845	7535545915324845	CMakeFiles/proto_lib.dir/Sources/protos/verify.pb.cc.obj	ffcdf5f03e36b48e
+23	3791	7535545934742736	CMakeFiles/proto_lib.dir/Sources/protos/verify.grpc.pb.cc.obj	9f8756b0eb8f1ecc
+3791	4209	7535545938970849	libproto_lib.a	d479999db197f106
+18	4357	7535545940388753	CMakeFiles/GateServer.dir/Sources/main.cpp.obj	5350591f45970d20
+16	4620	7535545943018466	CMakeFiles/GateServer.dir/Sources/CServer.cpp.obj	52c60e4a9e8444af
+26	5871	7535545955566623	CMakeFiles/GateServer.dir/Sources/VerifyGrpcClient.cpp.obj	c8441c6f4dfe1294
+30	5901	7535545955776591	CMakeFiles/GateServer.dir/Sources/HttpConnection.cpp.obj	f1f62c7e9042f742
+20	8466	7535545981378331	CMakeFiles/GateServer.dir/Sources/LoginSystem.cpp.obj	4caa88254fc1fec9

@@ -1,0 +1,3 @@
+"D:\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\GateServer.dir/objects.a
+D:\MSYS2\mingw64\bin\ar.exe qc CMakeFiles\GateServer.dir/objects.a @CMakeFiles\GateServer.dir\objects1.rsp
+D:\MSYS2\mingw64\bin\g++.exe -g  -static -Wl,--whole-archive CMakeFiles\GateServer.dir/objects.a -Wl,--no-whole-archive -o GateServer.exe -Wl,--out-implib,libGateServer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GateServer.dir\linkLibs.rsp
